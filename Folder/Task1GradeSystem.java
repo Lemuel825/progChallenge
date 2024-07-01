@@ -13,7 +13,6 @@ public class Task1GradeSystem {
                         (score >= 70) ? 'C' :
                                 (score >= 60) ? 'D' : 'F';
 
-        // Output the grade
         System.out.print("The student's grade is: " + grade);
     }
 }
